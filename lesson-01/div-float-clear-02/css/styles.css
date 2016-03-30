@@ -1,0 +1,106 @@
+body {
+	background-color: green;
+}
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.orange {
+	color: orange;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: underline;
+	color: #ccc;
+} 
+
+.wrapper {
+	background-color: #fff;
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0 40px 60px;
+}
+
+header {
+	padding: 60px 0 0;
+	background-color: #333;
+}
+
+.logo {
+	margin: 0 auto;
+	display: block;
+	width: 424px;
+}
+
+h1 {
+	font-size: 21px;	
+}
+
+h2 {
+	font-size: 18px;
+}
+
+h3 {
+	font-size: 14px;
+}
+
+p {
+	font-size: 12px;
+	line-height: 26px;
+}
+
+/* Did you know section */
+.did-you-know .copy {
+	width: 30%;
+}
+
+.did-you-know .image-wrapper {
+	width: 66%;
+}
+
+.did-you-know img {
+	width: 100%;
+}
+
+footer {
+	color: #fff;
+	background-color: #333;
+	padding: 20px 40px;
+}
+
+footer small {
+	display: block;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
